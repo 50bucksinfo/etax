@@ -1,0 +1,83 @@
+# Site settings
+title: Income tax assistane service in australia
+favicon-dir: favicon
+url: http://etax.50bucks.info
+description: "Income tax returns online assistance in australia. Offering expert advice for income tax returns, refunds and more. If needed, we visit your place to assist."
+keywords: "Income tax returns refunds online, remote and in-person assistance for Australians"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Etax powered by <a href="http://etax.50bucks.info">ETAX</a>
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+#  - title: twitter
+#    url: https://twitter.com/SBootstrap
+#   - title: facebook
+#     name: 
+#     url: https://www.facebook.com/pages/Etax-50bucks/1611956765754375
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: https://github.com/IronSummitMedia/startbootstrap
+   - title: envelope-o
+     name: 
+     url: mailto:etax@50bucks.info
+
+nav:
+   - title: "About Us"
+     url: "#about"
+   - title: "Our Services"
+     url: "#quality"
+   - title: "Why Us" 
+     url: "#whyus"
+   - title: "How to Order"
+     url: "#download"
+   - title: "Questions"
+     url: "#faq"
+   - title: "Get in Touch"
+     url: "#contact"
+
+form:
+   - type: text
+     name: Name
+     size: 40
+     maxlength: 250
+   - type: text
+     name: Email
+     size: 40
+     maxlength: 250
+   - type: text
+     name: Phone
+     size: 40
+     maxlength: 250
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #
+JB:
+  analytics :
+    provider : google
+    google :
+        tracking_id : 'UA-65031165-1'
+    getclicky :
+      site_id :
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
+
+
+# Build settings
+markdown: kramdown
+
+permalink: pretty
+phone: (03) 9005 5647
